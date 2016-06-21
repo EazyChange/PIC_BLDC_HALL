@@ -1,0 +1,26 @@
+/* 
+ * File:   PWM.h
+ * Author: Administrator
+ *
+ * Created on 2015?¨º10??29??, ????4:08
+ */
+
+#ifndef PWM_H
+#define	PWM_H
+
+unsigned char STATE_HALL[6]={0x09,0x24,0x21,0x12,0x18,0x06};//0x09,0x84,0x81,0x42,0x48,0x06
+//unsigned char STATE_HALL_BACK[6]={0x06,0x18,0x12,0x21,0x24,0x09};
+
+//unsigned char STATE_HALL[6]={0x06,0x12,0x18,0x09,0x21,0x24};//0x09,0x84,0x81,0x42,0x48,0x06
+unsigned char STATE_HALL_BACK[6]={0x18,0x21,0x09,0x06,0x12,0x24};
+
+void CAP_INIT();
+void PWM_INIT();
+void PWM_RUN(int i,int u_d,int state);
+void SET_DUTY(unsigned char n);
+void PWM_HALL(unsigned char i);
+unsigned char HALL(float* data, float center);
+unsigned char GET_HALL(unsigned char* data);
+
+#endif	/* PWM_H */
+

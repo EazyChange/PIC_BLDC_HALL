@@ -1,0 +1,1202 @@
+[p LITE_MODE PRO_MODE AUTOSTATIC LFSROK SPEEDOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4431 ]
+[d frameptr 4065 ]
+"10 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/AD.c
+[v _AD_INIT AD_INIT `(v  1 e 1 0 ]
+"29
+[v _readAD readAD `(v  1 e 1 0 ]
+"14 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/FRAM.c
+[v _FRAM_INIT FRAM_INIT `(v  1 e 1 0 ]
+[v i2_FRAM_INIT FRAM_INIT `(v  1 e 1 0 ]
+"20
+[v _write_F write_F `(v  1 e 1 0 ]
+[v i2_write_F write_F `(v  1 e 1 0 ]
+"39
+[v _read_F read_F `(uc  1 e 1 0 ]
+[v i2_read_F read_F `(uc  1 e 1 0 ]
+"55
+[v _DataClean DataClean `(v  1 e 1 0 ]
+[v i2_DataClean DataClean `(v  1 e 1 0 ]
+"68
+[v _Fill_Data Fill_Data `(v  1 e 1 0 ]
+"32 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/LCD.c
+[v _LCD_WrDat LCD_WrDat `(v  1 e 1 0 ]
+"40
+[v _LCD_WrCmd LCD_WrCmd `(v  1 e 1 0 ]
+"48
+[v _LCD_Set_Pos LCD_Set_Pos `(v  1 e 1 0 ]
+"69
+[v _LCD_CLS LCD_CLS `(v  1 e 1 0 ]
+"129
+[v _LCD_INIT LCD_INIT `(v  1 e 1 0 ]
+"193
+[v _show6x8 show6x8 `(v  1 e 1 0 ]
+"204
+[v _LCD_P6x8Str LCD_P6x8Str `(v  1 e 1 0 ]
+"226
+[v _LCD_P8x16Str LCD_P8x16Str `(v  1 e 1 0 ]
+"243
+[v _LCD_P8x16Sp LCD_P8x16Sp `(v  1 e 1 0 ]
+"284
+[v _LCD_HZ LCD_HZ `(v  1 e 1 0 ]
+"323
+[v _OLED_DrawBMP OLED_DrawBMP `(v  1 e 1 0 ]
+"368
+[v _DispLogo DispLogo `(v  1 e 1 0 ]
+"383
+[v _SetPage SetPage `(v  1 e 1 0 ]
+"428
+[v _TimePage TimePage `(v  1 e 1 0 ]
+"484
+[v _IDPage IDPage `(v  1 e 1 0 ]
+"525
+[v _DispPage1 DispPage1 `(v  1 e 1 0 ]
+"615
+[v _SetOKPage SetOKPage `(v  1 e 1 0 ]
+"625
+[v _ResetPage ResetPage `(v  1 e 1 0 ]
+"113 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/main.c
+[v _main main `(i  1 e 2 0 ]
+"503
+[v _ISR ISR `II(v  1 e 1 0 ]
+"8 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/motor.c
+[v _Display_Menu Display_Menu `(v  1 e 1 0 ]
+[v i2_Display_Menu Display_Menu `(v  1 e 1 0 ]
+"33
+[v _SetDefaultPara SetDefaultPara `(v  1 e 1 0 ]
+[v i2_SetDefaultPara SetDefaultPara `(v  1 e 1 0 ]
+"56
+[v _delay delay `(v  1 e 1 0 ]
+[v i2_delay delay `(v  1 e 1 0 ]
+"61
+[v _delay_n delay_n `(v  1 e 1 0 ]
+"29 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/PWM.c
+[v _CAP_INIT CAP_INIT `(v  1 e 1 0 ]
+"48
+[v _SET_DUTY SET_DUTY `(v  1 e 1 0 ]
+"64
+[v _PWM_INIT PWM_INIT `(v  1 e 1 0 ]
+"4 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/SPI.c
+[v _INIT_SPI INIT_SPI `(v  1 e 1 0 ]
+[v i2_INIT_SPI INIT_SPI `(v  1 e 1 0 ]
+"12
+[v _write_spi write_spi `(v  1 e 1 0 ]
+[v i2_write_spi write_spi `(v  1 e 1 0 ]
+"19
+[v _read_spi read_spi `(uc  1 e 1 0 ]
+[v i2_read_spi read_spi `(uc  1 e 1 0 ]
+"5 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/UART.c
+[v _UART_INIT UART_INIT `(v  1 e 1 0 ]
+[v i2_UART_INIT UART_INIT `(v  1 e 1 0 ]
+"23
+[v _Send_Hex Send_Hex `(v  1 e 1 0 ]
+[v i2_Send_Hex Send_Hex `(v  1 e 1 0 ]
+"30
+[v _Send_Str Send_Str `(v  1 e 1 0 ]
+[v i2_Send_Str Send_Str `(v  1 e 1 0 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\itoa.c
+[v _itoa itoa `(*.30uc  1 e 2 0 ]
+"17
+[v _utoa utoa `(*.30uc  1 e 2 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+[v i2_strlen strlen `(ui  1 e 2 0 ]
+"15 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"26 C:\Users\Administrator\Desktop\PIC_BLDC_HALL.X\DS1302.c
+[v _DS1302_INIT DS1302_INIT `(v  1 e 1 0 ]
+"42
+[v _set_time set_time `(v  1 e 1 0 ]
+"60
+[v _write_cmd write_cmd `(v  1 e 1 0 ]
+"83
+[v _write_data write_data `(v  1 e 1 0 ]
+"106
+[v _read_time read_time `(uc  1 e 1 0 ]
+"132
+[v _get_time get_time `(v  1 e 1 0 ]
+"158
+[v _Ascii2Str Ascii2Str `(v  1 e 1 0 ]
+"204
+[v _Hex2Dex Hex2Dex `(uc  1 e 1 0 ]
+"215
+[v _TimeFormat TimeFormat `(v  1 e 1 0 ]
+"7 C:\Users\Administrator\Desktop\PIC_BLDC_HALL.X\key.c
+[v _KEY_INIT KEY_INIT `(v  1 e 1 0 ]
+"12
+[v _KeyScan KeyScan `(uc  1 e 1 0 ]
+"13 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/AD.h
+[v _OverTEMP OverTEMP `b  1 e 0 0 ]
+"14
+[v _AD_RES AD_RES `f  1 e 3 0 ]
+"15
+[v _TEMP_VALUE TEMP_VALUE `f  1 e 3 0 ]
+"517 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/LCD.c
+[v _time time `i  1 e 2 0 ]
+"25 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/LCD.h
+[v _F8X16 F8X16 `C[592]uc  1 e 592 0 ]
+"132
+[v _F6x8_1 F6x8_1 `C[17][6]uc  1 e 102 0 ]
+"322
+[v _Logo Logo `C[512]uc  1 e 512 0 ]
+"394
+[v _F16x16_HZ F16x16_HZ `C[2080]uc  1 e 2080 0 ]
+"92 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/main.c
+[v _LastSpeed LastSpeed `s  1 e 2 0 ]
+"93
+[v _SL SL `uc  1 e 1 0 ]
+[v _SH SH `uc  1 e 1 0 ]
+"105
+[v _OperatorID OperatorID `uc  1 e 1 0 ]
+"106
+[v _OpenTimes OpenTimes `uc  1 e 1 0 ]
+"107
+[v _OpenTimes_tmp OpenTimes_tmp `uc  1 e 1 0 ]
+"109
+[v _address address `i  1 e 2 0 ]
+"110
+[v _Page Page `uc  1 e 1 0 ]
+"21 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/motor.h
+[v _MOTOR_BUTTON MOTOR_BUTTON `b  1 e 0 0 ]
+"22
+[v _MOTOR_DIR MOTOR_DIR `b  1 e 0 0 ]
+"23
+[v _Speed Speed `s  1 e 2 0 ]
+"24
+[v _hits hits `uc  1 e 1 0 ]
+[s S21 MotorPara 2 `uc 1 duty 1 0 `uc 1 hits 1 1 ]
+"29
+[v _Lev Lev `[5]S21  1 e 10 0 ]
+"31
+[v _SetPara SetPara `[5]S21  1 e 10 0 ]
+"33
+[v _AllData AllData `[8]uc  1 e 8 0 ]
+"34
+[v _UseNum UseNum `uc  1 e 1 0 ]
+"12 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/PWM.c
+[v _dutyH dutyH `uc  1 e 1 0 ]
+"13
+[v _dutyL dutyL `uc  1 e 1 0 ]
+"11 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/PWM.h
+[v _STATE_HALL STATE_HALL `[6]uc  1 e 6 0 ]
+"15
+[v _STATE_HALL_BACK STATE_HALL_BACK `[6]uc  1 e 6 0 ]
+"112 D:\Program Files (x86)\Microchip\xc8\v1.37\include\pic18f4431.h
+[v _CAP3CON CAP3CON `VEuc  1 e 1 @3937 ]
+"170
+[v _CAP2CON CAP2CON `VEuc  1 e 1 @3938 ]
+"228
+[v _CAP1CON CAP1CON `VEuc  1 e 1 @3939 ]
+"330
+[v _CAP1BUFL CAP1BUFL `VEuc  1 e 1 @3944 ]
+"341
+[v _CAP1BUFH CAP1BUFH `VEuc  1 e 1 @3945 ]
+"421
+[v _OVDCOND OVDCOND `VEuc  1 e 1 @3947 ]
+"676
+[v _PWMCON1 PWMCON1 `VEuc  1 e 1 @3950 ]
+"741
+[v _PWMCON0 PWMCON0 `VEuc  1 e 1 @3951 ]
+"834
+[v _PDC2H PDC2H `VEuc  1 e 1 @3956 ]
+"840
+[v _PDC2L PDC2L `VEuc  1 e 1 @3957 ]
+"846
+[v _PDC1H PDC1H `VEuc  1 e 1 @3958 ]
+"852
+[v _PDC1L PDC1L `VEuc  1 e 1 @3959 ]
+"858
+[v _PDC0H PDC0H `VEuc  1 e 1 @3960 ]
+"864
+[v _PDC0L PDC0L `VEuc  1 e 1 @3961 ]
+"870
+[v _PTPERH PTPERH `VEuc  1 e 1 @3962 ]
+"876
+[v _PTPERL PTPERL `VEuc  1 e 1 @3963 ]
+"882
+[v _PTMRH PTMRH `VEuc  1 e 1 @3964 ]
+"888
+[v _PTMRL PTMRL `VEuc  1 e 1 @3965 ]
+"920
+[v _PTCON0 PTCON0 `VEuc  1 e 1 @3967 ]
+"1001
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"4440
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"4649
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"4946
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"4957
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"4968
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"5136
+[v _T5CON T5CON `VEuc  1 e 1 @4023 ]
+"5255
+[v _ANSEL0 ANSEL0 `VEuc  1 e 1 @4024 ]
+"5316
+[v _ANSEL1 ANSEL1 `VEuc  1 e 1 @4025 ]
+"5527
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"5602
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"5700
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"5824
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"5830
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"5836
+[v _SSPCON SSPCON `VEuc  1 e 1 @4038 ]
+"5973
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"6210
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"7706
+[v _ADIF ADIF `VEb  1 e 0 @31990 ]
+"7710
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"7760
+[v _BRG16 BRG16 `VEb  1 e 0 @32083 ]
+"7762
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"7856
+[v _CKE CKE `VEb  1 e 0 @32318 ]
+"7858
+[v _CKP CKP `VEb  1 e 0 @32308 ]
+"7864
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"8000
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"8010
+[v _GODONE GODONE `VEb  1 e 0 @32273 ]
+"8018
+[v _IC1IE IC1IE `VEb  1 e 0 @32025 ]
+"8020
+[v _IC1IF IC1IF `VEb  1 e 0 @32033 ]
+"8024
+[v _IC2QEIE IC2QEIE `VEb  1 e 0 @32026 ]
+"8026
+[v _IC2QEIF IC2QEIF `VEb  1 e 0 @32034 ]
+"8030
+[v _IC3DRIE IC3DRIE `VEb  1 e 0 @32027 ]
+"8032
+[v _IC3DRIF IC3DRIF `VEb  1 e 0 @32035 ]
+"8338
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"8392
+[v _PTEN PTEN `VEb  1 e 0 @31735 ]
+"8454
+[v _RB6 RB6 `VEb  1 e 0 @31758 ]
+"8456
+[v _RB7 RB7 `VEb  1 e 0 @31759 ]
+"8468
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"8476
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"8478
+[v _RC3 RC3 `VEb  1 e 0 @31763 ]
+"8482
+[v _RC5 RC5 `VEb  1 e 0 @31765 ]
+"8496
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"8498
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"8506
+[v _RD0 RD0 `VEb  1 e 0 @31768 ]
+"8508
+[v _RD1 RD1 `VEb  1 e 0 @31769 ]
+"8514
+[v _RD2 RD2 `VEb  1 e 0 @31770 ]
+"8516
+[v _RD3 RD3 `VEb  1 e 0 @31771 ]
+"8518
+[v _RD4 RD4 `VEb  1 e 0 @31772 ]
+"8522
+[v _RD6 RD6 `VEb  1 e 0 @31774 ]
+"8524
+[v _RD7 RD7 `VEb  1 e 0 @31775 ]
+"8528
+[v _RE0 RE0 `VEb  1 e 0 @31776 ]
+"8530
+[v _RE1 RE1 `VEb  1 e 0 @31777 ]
+"8532
+[v _RE2 RE2 `VEb  1 e 0 @31778 ]
+"8538
+[v _RESEN RESEN `VEb  1 e 0 @32190 ]
+"8618
+[v _SMP SMP `VEb  1 e 0 @32319 ]
+"8624
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"8634
+[v _SSPEN SSPEN `VEb  1 e 0 @32309 ]
+"8638
+[v _SSPIF SSPIF `VEb  1 e 0 @31987 ]
+"8684
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"8788
+[v _TMR5IE TMR5IE `VEb  1 e 0 @32024 ]
+"8790
+[v _TMR5IF TMR5IF `VEb  1 e 0 @32032 ]
+"8806
+[v _TRISA0 TRISA0 `VEb  1 e 0 @31888 ]
+"8808
+[v _TRISA1 TRISA1 `VEb  1 e 0 @31889 ]
+"8810
+[v _TRISA2 TRISA2 `VEb  1 e 0 @31890 ]
+"8812
+[v _TRISA3 TRISA3 `VEb  1 e 0 @31891 ]
+"8814
+[v _TRISA4 TRISA4 `VEb  1 e 0 @31892 ]
+"8822
+[v _TRISB0 TRISB0 `VEb  1 e 0 @31896 ]
+"8824
+[v _TRISB1 TRISB1 `VEb  1 e 0 @31897 ]
+"8826
+[v _TRISB2 TRISB2 `VEb  1 e 0 @31898 ]
+"8828
+[v _TRISB3 TRISB3 `VEb  1 e 0 @31899 ]
+"8830
+[v _TRISB4 TRISB4 `VEb  1 e 0 @31900 ]
+"8834
+[v _TRISB6 TRISB6 `VEb  1 e 0 @31902 ]
+"8836
+[v _TRISB7 TRISB7 `VEb  1 e 0 @31903 ]
+"8840
+[v _TRISC1 TRISC1 `VEb  1 e 0 @31905 ]
+"8842
+[v _TRISC2 TRISC2 `VEb  1 e 0 @31906 ]
+"8844
+[v _TRISC3 TRISC3 `VEb  1 e 0 @31907 ]
+"8846
+[v _TRISC4 TRISC4 `VEb  1 e 0 @31908 ]
+"8848
+[v _TRISC5 TRISC5 `VEb  1 e 0 @31909 ]
+"8850
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"8852
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"8854
+[v _TRISD0 TRISD0 `VEb  1 e 0 @31912 ]
+"8856
+[v _TRISD1 TRISD1 `VEb  1 e 0 @31913 ]
+"8858
+[v _TRISD2 TRISD2 `VEb  1 e 0 @31914 ]
+"8860
+[v _TRISD3 TRISD3 `VEb  1 e 0 @31915 ]
+"8862
+[v _TRISD4 TRISD4 `VEb  1 e 0 @31916 ]
+"8864
+[v _TRISD5 TRISD5 `VEb  1 e 0 @31917 ]
+"8866
+[v _TRISD6 TRISD6 `VEb  1 e 0 @31918 ]
+"8868
+[v _TRISD7 TRISD7 `VEb  1 e 0 @31919 ]
+"8870
+[v _TRISE0 TRISE0 `VEb  1 e 0 @31920 ]
+"8872
+[v _TRISE1 TRISE1 `VEb  1 e 0 @31921 ]
+"8874
+[v _TRISE2 TRISE2 `VEb  1 e 0 @31922 ]
+"8876
+[v _TRMT TRMT `VEb  1 e 0 @32097 ]
+"21 C:\Users\Administrator\Desktop\PIC_BLDC_HALL.X\DS1302.h
+[v _table table `[7]uc  1 e 7 0 ]
+"23
+[v _start start `[7]uc  1 e 7 0 ]
+"113 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"476
+[v main@change change `uc  1 a 1 67 ]
+"378
+[v main@index index `i  1 a 2 68 ]
+"165
+[v main@Key Key `uc  1 a 1 72 ]
+"155
+[v main@SetLev SetLev `uc  1 a 1 71 ]
+"125
+[v main@Arrow_Ptr Arrow_Ptr `uc  1 a 1 70 ]
+"500
+} 0
+"42 C:\Users\Administrator\Desktop\PIC_BLDC_HALL.X\DS1302.c
+[v _set_time set_time `(v  1 e 1 0 ]
+{
+[v set_time@date date `*.30uc  1 a 1 wreg ]
+"44
+[v set_time@i i `i  1 a 2 33 ]
+"42
+[v set_time@date date `*.30uc  1 a 1 wreg ]
+"45
+[v set_time@date date `*.30uc  1 a 1 32 ]
+"53
+} 0
+"39 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/FRAM.c
+[v _read_F read_F `(uc  1 e 1 0 ]
+{
+"43
+[v read_F@H H `uc  1 a 1 34 ]
+"42
+[v read_F@L L `uc  1 a 1 33 ]
+"41
+[v read_F@t t `uc  1 a 1 32 ]
+"39
+[v read_F@address address `ui  1 p 2 30 ]
+"53
+} 0
+"19 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/SPI.c
+[v _read_spi read_spi `(uc  1 e 1 0 ]
+{
+"21
+[v read_spi@t t `uc  1 a 1 29 ]
+"27
+} 0
+"29 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/AD.c
+[v _readAD readAD `(v  1 e 1 0 ]
+{
+"33
+[v readAD@tmp tmp `f  1 a 3 9 ]
+"50
+} 0
+"20 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+{
+[v ___ftsub@f1 f1 `f  1 p 3 3 ]
+[v ___ftsub@f2 f2 `f  1 p 3 6 ]
+"27
+} 0
+"86 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 2 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 1 ]
+[v ___ftadd@sign sign `uc  1 a 1 0 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 55 ]
+[v ___ftadd@f2 f2 `f  1 p 3 58 ]
+"148
+} 0
+"32 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 40 ]
+"32
+[v ___awtoft@c c `i  1 p 2 37 ]
+"42
+} 0
+"132 C:\Users\Administrator\Desktop\PIC_BLDC_HALL.X\DS1302.c
+[v _get_time get_time `(v  1 e 1 0 ]
+{
+"134
+[v get_time@i i `i  1 a 2 32 ]
+"155
+} 0
+"106
+[v _read_time read_time `(uc  1 e 1 0 ]
+{
+"109
+[v read_time@j j `i  1 a 2 30 ]
+"108
+[v read_time@rec rec `uc  1 a 1 29 ]
+"110
+[v read_time@temp temp `b  1 s 0 temp ]
+"125
+} 0
+"61 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/motor.c
+[v _delay_n delay_n `(v  1 e 1 0 ]
+{
+[v delay_n@n n `uc  1 a 1 wreg ]
+[v delay_n@n n `uc  1 a 1 wreg ]
+[v delay_n@n n `uc  1 a 1 31 ]
+"67
+} 0
+"5 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/UART.c
+[v _UART_INIT UART_INIT `(v  1 e 1 0 ]
+{
+"21
+} 0
+"428 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/LCD.c
+[v _TimePage TimePage `(v  1 e 1 0 ]
+{
+[v TimePage@year year `uc  1 a 1 wreg ]
+"430
+[v TimePage@buf buf `[3]uc  1 a 3 51 ]
+"428
+[v TimePage@year year `uc  1 a 1 wreg ]
+[v TimePage@month month `uc  1 p 1 44 ]
+[v TimePage@day day `uc  1 p 1 45 ]
+[v TimePage@hour hour `uc  1 p 1 46 ]
+[v TimePage@min min `uc  1 p 1 47 ]
+[v TimePage@sec sec `uc  1 p 1 48 ]
+[v TimePage@x x `uc  1 p 1 49 ]
+"432
+[v TimePage@year year `uc  1 a 1 50 ]
+"479
+} 0
+"215 C:\Users\Administrator\Desktop\PIC_BLDC_HALL.X\DS1302.c
+[v _TimeFormat TimeFormat `(v  1 e 1 0 ]
+{
+[v TimeFormat@ascii ascii `*.30uc  1 a 1 wreg ]
+"242
+[v TimeFormat@buf buf `uc  1 a 1 32 ]
+"215
+[v TimeFormat@ascii ascii `*.30uc  1 a 1 wreg ]
+[v TimeFormat@min min `uc  1 p 1 29 ]
+[v TimeFormat@max max `uc  1 p 1 30 ]
+"217
+[v TimeFormat@ascii ascii `*.30uc  1 a 1 33 ]
+"251
+} 0
+"383 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/LCD.c
+[v _SetPage SetPage `(v  1 e 1 0 ]
+{
+"388
+[v SetPage@buf buf `[4]uc  1 a 4 50 ]
+[s S21 MotorPara 2 `uc 1 duty 1 0 `uc 1 hits 1 1 ]
+"383
+[v SetPage@mp mp `S21  1 p 2 45 ]
+[v SetPage@lev lev `i  1 p 2 47 ]
+[v SetPage@x x `uc  1 p 1 49 ]
+"407
+} 0
+"615
+[v _SetOKPage SetOKPage `(v  1 e 1 0 ]
+{
+"624
+} 0
+"33 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/motor.c
+[v _SetDefaultPara SetDefaultPara `(v  1 e 1 0 ]
+{
+"46
+} 0
+"48 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/PWM.c
+[v _SET_DUTY SET_DUTY `(v  1 e 1 0 ]
+{
+[v SET_DUTY@n n `uc  1 a 1 wreg ]
+"50
+[v SET_DUTY@temp temp `i  1 a 2 34 ]
+"48
+[v SET_DUTY@n n `uc  1 a 1 wreg ]
+"50
+[v SET_DUTY@n n `uc  1 a 1 33 ]
+"62
+} 0
+"27 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 40 ]
+"30
+} 0
+"54 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 13 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 17 ]
+[v ___ftdiv@exp exp `uc  1 a 1 16 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 12 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 3 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 6 ]
+"86
+} 0
+"625 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/LCD.c
+[v _ResetPage ResetPage `(v  1 e 1 0 ]
+{
+[v ResetPage@x x `uc  1 a 1 wreg ]
+[v ResetPage@x x `uc  1 a 1 wreg ]
+"627
+[v ResetPage@x x `uc  1 a 1 44 ]
+"656
+} 0
+"4 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 32 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 31 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 29 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 30 ]
+"18
+} 0
+"64 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/PWM.c
+[v _PWM_INIT PWM_INIT `(v  1 e 1 0 ]
+{
+"88
+} 0
+"129 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/LCD.c
+[v _LCD_INIT LCD_INIT `(v  1 e 1 0 ]
+{
+"169
+} 0
+"69
+[v _LCD_CLS LCD_CLS `(v  1 e 1 0 ]
+{
+"71
+[v LCD_CLS@y y `uc  1 a 1 32 ]
+[v LCD_CLS@x x `uc  1 a 1 31 ]
+"80
+} 0
+"12 C:\Users\Administrator\Desktop\PIC_BLDC_HALL.X\key.c
+[v _KeyScan KeyScan `(uc  1 e 1 0 ]
+{
+"14
+[v KeyScan@keytime keytime `l  1 a 4 31 ]
+"76
+} 0
+"7
+[v _KEY_INIT KEY_INIT `(v  1 e 1 0 ]
+{
+"10
+} 0
+"484 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/LCD.c
+[v _IDPage IDPage `(v  1 e 1 0 ]
+{
+"486
+[v IDPage@buf buf `[4]uc  1 a 4 45 ]
+"514
+} 0
+"158 C:\Users\Administrator\Desktop\PIC_BLDC_HALL.X\DS1302.c
+[v _Ascii2Str Ascii2Str `(v  1 e 1 0 ]
+{
+[v Ascii2Str@ascii ascii `uc  1 a 1 wreg ]
+[v Ascii2Str@ascii ascii `uc  1 a 1 wreg ]
+[v Ascii2Str@buf buf `*.30uc  1 p 1 29 ]
+"162
+[v Ascii2Str@ascii ascii `uc  1 a 1 30 ]
+"202
+} 0
+"68 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/FRAM.c
+[v _Fill_Data Fill_Data `(v  1 e 1 0 ]
+{
+[v Fill_Data@num num `uc  1 a 1 wreg ]
+"70
+[v Fill_Data@address address `i  1 a 2 40 ]
+"68
+[v Fill_Data@num num `uc  1 a 1 wreg ]
+"70
+[v Fill_Data@num num `uc  1 a 1 39 ]
+"73
+} 0
+"204 C:\Users\Administrator\Desktop\PIC_BLDC_HALL.X\DS1302.c
+[v _Hex2Dex Hex2Dex `(uc  1 e 1 0 ]
+{
+[v Hex2Dex@Hex Hex `uc  1 a 1 wreg ]
+"206
+[v Hex2Dex@tmp tmp `uc  1 a 1 30 ]
+[v Hex2Dex@res res `uc  1 a 1 29 ]
+"204
+[v Hex2Dex@Hex Hex `uc  1 a 1 wreg ]
+"206
+[v Hex2Dex@Hex Hex `uc  1 a 1 31 ]
+"213
+} 0
+"14 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/FRAM.c
+[v _FRAM_INIT FRAM_INIT `(v  1 e 1 0 ]
+{
+"18
+} 0
+"4 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/SPI.c
+[v _INIT_SPI INIT_SPI `(v  1 e 1 0 ]
+{
+"11
+} 0
+"8 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/motor.c
+[v _Display_Menu Display_Menu `(v  1 e 1 0 ]
+{
+"17
+} 0
+"30 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/UART.c
+[v _Send_Str Send_Str `(v  1 e 1 0 ]
+{
+"32
+[v Send_Str@i i `i  1 a 2 37 ]
+"30
+[v Send_Str@data data `*.25uc  1 p 2 33 ]
+"37
+} 0
+"4 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v strlen@cp cp `*.25Cuc  1 a 2 31 ]
+"4
+[v strlen@s s `*.25Cuc  1 p 2 29 ]
+"13
+} 0
+"23 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/UART.c
+[v _Send_Hex Send_Hex `(v  1 e 1 0 ]
+{
+[v Send_Hex@data data `uc  1 a 1 wreg ]
+[v Send_Hex@data data `uc  1 a 1 wreg ]
+"25
+[v Send_Hex@data data `uc  1 a 1 29 ]
+"28
+} 0
+"525 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/LCD.c
+[v _DispPage1 DispPage1 `(v  1 e 1 0 ]
+{
+"527
+[v DispPage1@buf buf `[5]uc  1 a 5 49 ]
+[s S21 MotorPara 2 `uc 1 duty 1 0 `uc 1 hits 1 1 ]
+"525
+[v DispPage1@mp mp `S21  1 p 2 45 ]
+[v DispPage1@lev lev `i  1 p 2 47 ]
+"614
+} 0
+"4 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\itoa.c
+[v _itoa itoa `(*.30uc  1 e 2 0 ]
+{
+[v itoa@buf buf `*.30uc  1 a 1 wreg ]
+[v itoa@buf buf `*.30uc  1 a 1 wreg ]
+[v itoa@val val `i  1 p 2 39 ]
+[v itoa@base base `i  1 p 2 41 ]
+[v itoa@buf buf `*.30uc  1 a 1 44 ]
+"14
+} 0
+"17
+[v _utoa utoa `(*.30uc  1 e 2 0 ]
+{
+[v utoa@buf buf `*.30uc  1 a 1 wreg ]
+"19
+[v utoa@v v `ui  1 a 2 40 ]
+"20
+[v utoa@c c `uc  1 a 1 42 ]
+"17
+[v utoa@buf buf `*.30uc  1 a 1 wreg ]
+[v utoa@val val `ui  1 p 2 36 ]
+[v utoa@base base `i  1 p 2 38 ]
+"22
+[v utoa@buf buf `*.30uc  1 a 1 43 ]
+"37
+} 0
+"8 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 33 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 29 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 31 ]
+"26
+} 0
+"8 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 33 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 35 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 29 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 31 ]
+"31
+} 0
+"44 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 28 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 32 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 27 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 18 ]
+"73
+} 0
+"62 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 52 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 51 ]
+[v ___ftmul@exp exp `uc  1 a 1 50 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 41 ]
+[v ___ftmul@f2 f2 `f  1 p 3 44 ]
+"157
+} 0
+"62 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 29 ]
+[v ___ftpack@exp exp `uc  1 p 1 32 ]
+[v ___ftpack@sign sign `uc  1 p 1 33 ]
+"86
+} 0
+"4 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 29 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 32 ]
+"13
+} 0
+"8 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 38 ]
+[v ___awmod@counter counter `uc  1 a 1 37 ]
+"8
+[v ___awmod@dividend dividend `i  1 p 2 33 ]
+[v ___awmod@divisor divisor `i  1 p 2 35 ]
+"35
+} 0
+"226 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/LCD.c
+[v _LCD_P8x16Str LCD_P8x16Str `(v  1 e 1 0 ]
+{
+[v LCD_P8x16Str@x x `uc  1 a 1 wreg ]
+"228
+[v LCD_P8x16Str@i i `uc  1 a 1 43 ]
+[v LCD_P8x16Str@j j `uc  1 a 1 41 ]
+[v LCD_P8x16Str@c c `uc  1 a 1 40 ]
+"226
+[v LCD_P8x16Str@x x `uc  1 a 1 wreg ]
+[v LCD_P8x16Str@y y `uc  1 p 1 33 ]
+[v LCD_P8x16Str@ch ch `*.35uc  1 p 2 34 ]
+"228
+[v LCD_P8x16Str@x x `uc  1 a 1 42 ]
+"242
+} 0
+"243
+[v _LCD_P8x16Sp LCD_P8x16Sp `(v  1 e 1 0 ]
+{
+[v LCD_P8x16Sp@x x `uc  1 a 1 wreg ]
+"245
+[v LCD_P8x16Sp@i i `uc  1 a 1 41 ]
+[v LCD_P8x16Sp@c c `uc  1 a 1 40 ]
+"243
+[v LCD_P8x16Sp@x x `uc  1 a 1 wreg ]
+[v LCD_P8x16Sp@y y `uc  1 p 1 33 ]
+[v LCD_P8x16Sp@ch ch `uc  1 p 1 34 ]
+"245
+[v LCD_P8x16Sp@x x `uc  1 a 1 39 ]
+"261
+} 0
+"368
+[v _DispLogo DispLogo `(v  1 e 1 0 ]
+{
+"379
+} 0
+"323
+[v _OLED_DrawBMP OLED_DrawBMP `(v  1 e 1 0 ]
+{
+[v OLED_DrawBMP@x0 x0 `uc  1 a 1 wreg ]
+"325
+[v OLED_DrawBMP@j j `ui  1 a 2 40 ]
+"326
+[v OLED_DrawBMP@y y `uc  1 a 1 44 ]
+[v OLED_DrawBMP@x x `uc  1 a 1 42 ]
+"323
+[v OLED_DrawBMP@x0 x0 `uc  1 a 1 wreg ]
+[v OLED_DrawBMP@y0 y0 `uc  1 p 1 33 ]
+[v OLED_DrawBMP@x1 x1 `uc  1 p 1 34 ]
+[v OLED_DrawBMP@y1 y1 `uc  1 p 1 35 ]
+[v OLED_DrawBMP@BMP BMP `*.25uc  1 p 2 36 ]
+"325
+[v OLED_DrawBMP@x0 x0 `uc  1 a 1 43 ]
+"338
+} 0
+"204
+[v _LCD_P6x8Str LCD_P6x8Str `(v  1 e 1 0 ]
+{
+[v LCD_P6x8Str@x x `uc  1 a 1 wreg ]
+[v LCD_P6x8Str@x x `uc  1 a 1 wreg ]
+[v LCD_P6x8Str@y y `uc  1 p 1 39 ]
+[v LCD_P6x8Str@mode mode `uc  1 p 1 40 ]
+"206
+[v LCD_P6x8Str@x x `uc  1 a 1 41 ]
+"218
+} 0
+"193
+[v _show6x8 show6x8 `(v  1 e 1 0 ]
+{
+[v show6x8@x x `uc  1 a 1 wreg ]
+"195
+[v show6x8@i i `uc  1 a 1 38 ]
+"193
+[v show6x8@x x `uc  1 a 1 wreg ]
+[v show6x8@y y `uc  1 p 1 33 ]
+[v show6x8@c c `uc  1 p 1 34 ]
+[v show6x8@x x `uc  1 a 1 37 ]
+"202
+} 0
+"284
+[v _LCD_HZ LCD_HZ `(v  1 e 1 0 ]
+{
+[v LCD_HZ@x x `uc  1 a 1 wreg ]
+"287
+[v LCD_HZ@adder adder `ui  1 a 2 40 ]
+"286
+[v LCD_HZ@wm wm `uc  1 a 1 42 ]
+"284
+[v LCD_HZ@x x `uc  1 a 1 wreg ]
+[v LCD_HZ@y y `uc  1 p 1 33 ]
+[v LCD_HZ@data data `*.25uc  1 p 2 34 ]
+[v LCD_HZ@N N `uc  1 p 1 36 ]
+[v LCD_HZ@x x `uc  1 a 1 39 ]
+"300
+} 0
+"32
+[v _LCD_WrDat LCD_WrDat `(v  1 e 1 0 ]
+{
+[v LCD_WrDat@dat dat `uc  1 a 1 wreg ]
+[v LCD_WrDat@dat dat `uc  1 a 1 wreg ]
+"34
+[v LCD_WrDat@dat dat `uc  1 a 1 30 ]
+"39
+} 0
+"48
+[v _LCD_Set_Pos LCD_Set_Pos `(v  1 e 1 0 ]
+{
+[v LCD_Set_Pos@x x `uc  1 a 1 wreg ]
+[v LCD_Set_Pos@x x `uc  1 a 1 wreg ]
+[v LCD_Set_Pos@y y `uc  1 p 1 31 ]
+"50
+[v LCD_Set_Pos@x x `uc  1 a 1 32 ]
+"53
+} 0
+"40
+[v _LCD_WrCmd LCD_WrCmd `(v  1 e 1 0 ]
+{
+[v LCD_WrCmd@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_WrCmd@cmd cmd `uc  1 a 1 wreg ]
+"42
+[v LCD_WrCmd@cmd cmd `uc  1 a 1 30 ]
+"47
+} 0
+"55 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/FRAM.c
+[v _DataClean DataClean `(v  1 e 1 0 ]
+{
+"57
+[v DataClean@i i `ui  1 a 2 43 ]
+"55
+[v DataClean@b_add b_add `ui  1 p 2 37 ]
+[v DataClean@e_add e_add `ui  1 p 2 39 ]
+"62
+} 0
+"20
+[v _write_F write_F `(v  1 e 1 0 ]
+{
+[v write_F@t t `uc  1 a 1 wreg ]
+"23
+[v write_F@H H `uc  1 a 1 36 ]
+"22
+[v write_F@L L `uc  1 a 1 35 ]
+"20
+[v write_F@t t `uc  1 a 1 wreg ]
+[v write_F@address address `ui  1 p 2 32 ]
+"22
+[v write_F@t t `uc  1 a 1 34 ]
+"37
+} 0
+"12 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/SPI.c
+[v _write_spi write_spi `(v  1 e 1 0 ]
+{
+[v write_spi@data data `uc  1 a 1 wreg ]
+[v write_spi@data data `uc  1 a 1 wreg ]
+"14
+[v write_spi@data data `uc  1 a 1 29 ]
+"17
+} 0
+"56 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/motor.c
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@t t `ui  1 p 2 29 ]
+"59
+} 0
+"26 C:\Users\Administrator\Desktop\PIC_BLDC_HALL.X\DS1302.c
+[v _DS1302_INIT DS1302_INIT `(v  1 e 1 0 ]
+{
+"35
+} 0
+"83
+[v _write_data write_data `(v  1 e 1 0 ]
+{
+[v write_data@data data `uc  1 a 1 wreg ]
+"86
+[v write_data@j j `i  1 a 2 30 ]
+"83
+[v write_data@data data `uc  1 a 1 wreg ]
+"85
+[v write_data@data data `uc  1 a 1 29 ]
+"99
+} 0
+"60
+[v _write_cmd write_cmd `(v  1 e 1 0 ]
+{
+[v write_cmd@cmd cmd `uc  1 a 1 wreg ]
+"63
+[v write_cmd@j j `i  1 a 2 30 ]
+"60
+[v write_cmd@cmd cmd `uc  1 a 1 wreg ]
+"62
+[v write_cmd@cmd cmd `uc  1 a 1 29 ]
+"76
+} 0
+"29 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/PWM.c
+[v _CAP_INIT CAP_INIT `(v  1 e 1 0 ]
+{
+"46
+} 0
+"10 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/AD.c
+[v _AD_INIT AD_INIT `(v  1 e 1 0 ]
+{
+"27
+} 0
+"503 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"544
+[v ISR@i i `i  1 a 2 27 ]
+"597
+[v ISR@change change `uc  1 a 1 26 ]
+"683
+} 0
+"39 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/FRAM.c
+[v i2_read_F read_F `(uc  1 e 1 0 ]
+{
+[v i2read_F@H read_F `uc  1 a 1 5 ]
+[v i2read_F@L read_F `uc  1 a 1 4 ]
+[v i2read_F@t read_F `uc  1 a 1 3 ]
+[v i2read_F@address address `ui  1 p 2 1 ]
+"53
+} 0
+"19 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/SPI.c
+[v i2_read_spi read_spi `(uc  1 e 1 0 ]
+{
+[v i2read_spi@t read_spi `uc  1 a 1 0 ]
+"27
+} 0
+"5 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/UART.c
+[v i2_UART_INIT UART_INIT `(v  1 e 1 0 ]
+{
+"21
+} 0
+"33 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/motor.c
+[v i2_SetDefaultPara SetDefaultPara `(v  1 e 1 0 ]
+{
+"46
+} 0
+"14 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/FRAM.c
+[v i2_FRAM_INIT FRAM_INIT `(v  1 e 1 0 ]
+{
+"18
+} 0
+"4 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/SPI.c
+[v i2_INIT_SPI INIT_SPI `(v  1 e 1 0 ]
+{
+"11
+} 0
+"8 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/motor.c
+[v i2_Display_Menu Display_Menu `(v  1 e 1 0 ]
+{
+"17
+} 0
+"30 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/UART.c
+[v i2_Send_Str Send_Str `(v  1 e 1 0 ]
+{
+[v i2Send_Str@i Send_Str `i  1 a 2 8 ]
+[v i2Send_Str@data data `*.25uc  1 p 2 4 ]
+"37
+} 0
+"4 D:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\strlen.c
+[v i2_strlen strlen `(ui  1 e 2 0 ]
+{
+[v i2strlen@cp strlen `*.25Cuc  1 a 2 2 ]
+[v i2strlen@s s `*.25Cuc  1 p 2 0 ]
+"13
+} 0
+"23 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/UART.c
+[v i2_Send_Hex Send_Hex `(v  1 e 1 0 ]
+{
+[v i2Send_Hex@data data `uc  1 a 1 wreg ]
+[v i2Send_Hex@data data `uc  1 a 1 wreg ]
+"25
+[v i2Send_Hex@data data `uc  1 a 1 0 ]
+"28
+} 0
+"55 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/FRAM.c
+[v i2_DataClean DataClean `(v  1 e 1 0 ]
+{
+[v i2DataClean@i DataClean `ui  1 a 2 13 ]
+[v i2DataClean@b_add b_add `ui  1 p 2 7 ]
+[v i2DataClean@e_add e_add `ui  1 p 2 9 ]
+"62
+} 0
+"20
+[v i2_write_F write_F `(v  1 e 1 0 ]
+{
+[v i2write_F@t t `uc  1 a 1 wreg ]
+[v i2write_F@H write_F `uc  1 a 1 6 ]
+[v i2write_F@L write_F `uc  1 a 1 5 ]
+[v i2write_F@t t `uc  1 a 1 wreg ]
+[v i2write_F@address address `ui  1 p 2 2 ]
+"22
+[v i2write_F@t t `uc  1 a 1 4 ]
+"37
+} 0
+"12 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/SPI.c
+[v i2_write_spi write_spi `(v  1 e 1 0 ]
+{
+[v i2write_spi@data data `uc  1 a 1 wreg ]
+[v i2write_spi@data data `uc  1 a 1 wreg ]
+"14
+[v i2write_spi@data data `uc  1 a 1 0 ]
+"17
+} 0
+"56 C:/Users/Administrator/Desktop/PIC_BLDC_HALL.X/motor.c
+[v i2_delay delay `(v  1 e 1 0 ]
+{
+[v i2delay@t t `ui  1 p 2 0 ]
+"59
+} 0
